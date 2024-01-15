@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  background-color: #374249;
+  margin: 0;
+  padding:0;
+  h4 {
+    background-color: #f75311;
+    padding: 0.5em;
+    margin: 0;
+  }
+  nav {
+    width: 100%;
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 20px;
+      
+      gap: 20px;
+      list-style: none;
+    }
+  }
+}
