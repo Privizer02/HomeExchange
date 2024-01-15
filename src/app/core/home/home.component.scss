@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+  .header-img {
+
+    img {
+      width: 100%;
+      position: relative;
+  }
+  }
+  .header-text {
+    text-align: center;
+    margin-top: 10em;
+    width: 50%;
+    background-color: #37424979;
+    color: white;
+    position: absolute;
+    
+    
+  }
+}
+
+.images {
+  display: flex;
+
+
+  ul {
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;
+    padding: 0;  
+    li {
+      width: 24%;
+      overflow: hidden;
+      
+      img {
+        width: 19.7em;
+        transition: transform .5s ease;
+      }
+    }
+    li:hover img {
+      transform: scale(1.1);
+    }
+  }
+}

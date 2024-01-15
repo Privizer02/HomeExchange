@@ -10,6 +10,7 @@ import { BuyComponent } from './core/buy/buy.component';
 import { SellComponent } from './core/sell/sell.component';
 import { RentComponent } from './rent/rent.component';
 import { HomeComponent } from './core/home/home.component';
+import { FooterComponent } from './core/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './core/home/home.component';
     BuyComponent,
     SellComponent,
     RentComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
