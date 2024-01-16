@@ -11,6 +11,7 @@ import { SellComponent } from './core/sell/sell.component';
 import { RentComponent } from './rent/rent.component';
 import { HomeComponent } from './core/home/home.component';
 import { FooterComponent } from './core/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './core/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
