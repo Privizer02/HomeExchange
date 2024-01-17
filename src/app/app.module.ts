@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './core/nav/nav.component';
 import { ContactComponent } from './core/contact/contact.component';
-import { BuyComponent } from './core/buy/buy.component';
+import { BuyComponent } from './buy/buy.component';
 import { SellComponent } from './core/sell/sell.component';
 import { RentComponent } from './rent/rent.component';
 import { HomeComponent } from './core/home/home.component';
@@ -14,6 +14,7 @@ import { FooterComponent } from './core/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RentDetailComponent } from './rent/rent-detail/rent-detail.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BuyDetailsComponent } from './buy/buy-details/buy-details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RentComponent,
     HomeComponent,
     FooterComponent,
-    RentDetailComponent
+    RentDetailComponent,
+    BuyDetailsComponent
   ],
   imports: [
     BrowserModule,

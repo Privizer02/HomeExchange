@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./buy.component.scss']
 })
 export class BuyComponent {
-
+  
 }
