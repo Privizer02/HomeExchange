@@ -12,6 +12,8 @@ import { RentComponent } from './rent/rent.component';
 import { HomeComponent } from './core/home/home.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RentDetailComponent } from './rent/rent-detail/rent-detail.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SellComponent,
     RentComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    RentDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
