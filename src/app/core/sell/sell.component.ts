@@ -9,7 +9,14 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class SellComponent {
   sentRequest = false;
 
+  rentOrSell = false;
+
+  ngOnInit() {
+        
+  }
+
   formSell:FormGroup = new FormGroup({
+    rentSell: new FormControl("",Validators.required),
     firstName: new FormControl("",Validators.required),
     lastName : new FormControl("",Validators.required),
     email : new FormControl("",Validators.required),
@@ -24,5 +31,15 @@ export class SellComponent {
 
   onClick() {
     this.sentRequest =true;
+  }
+
+  rentSell() {
+    if(this.formSell.value.rentSell == 'rent') {
+      this.rentOrSell = true;
+      
+    }
+    else if(this.formSell.value.rentSell == 'sell') {
+      this.rentOrSell=false;
+    }
   }
 }

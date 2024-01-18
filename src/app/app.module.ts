@@ -18,11 +18,11 @@ import { BuyDetailsComponent } from './buy/buy-details/buy-details.component';
 
 @NgModule({
   declarations: [
+    SellComponent,
     AppComponent,
     NavComponent,
     ContactComponent,
     BuyComponent,
-    SellComponent,
     RentComponent,
     HomeComponent,
     FooterComponent,
