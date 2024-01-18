@@ -35,7 +35,7 @@ import { BuyDetailsComponent } from './buy/buy-details/buy-details.component';
     NgbModule,
     FontAwesomeModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
