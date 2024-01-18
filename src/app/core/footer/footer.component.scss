@@ -1,13 +1,17 @@
 .footer {
   color: white;
   background-color: #374249;
-  margin-top: 50px;
+  
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
+  
 
+  
+  margin-top: 130px;
+  
   .about {
     text-align: end;
     padding: 10px;
@@ -37,10 +41,7 @@
   .location {
     padding: 10px;
     text-align: center;
-    p {
-      // text-transform: uppercase;
-      
-    }
+    
     ul {
       list-style: none;
       li {

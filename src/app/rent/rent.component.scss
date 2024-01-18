@@ -100,3 +100,132 @@
 
   
 }
+
+@media screen and (max-width:1400px) {
+  .rent {
+    ul {
+      
+      li {
+        margin: px;
+        font-size: 14px !important;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:1200px) {
+  .rent {
+    ul {
+      gap: 0px !important;
+      padding: 0;
+      li {
+        margin: 10px;
+        font-size: 12px !important;
+      }
+    }
+  }
+  
+}
+
+
+@media screen and (max-width:1200px) {
+  .offers {
+    flex-wrap: nowrap !important;
+    flex-direction: column;
+    align-items: center;
+    .offer {
+      width: 80% !important;
+      justify-content: space-around !important;
+      ul {
+        gap: 0px !important;
+        padding: 0;
+        li {
+          
+          font-size: 18px !important;
+        }
+      }
+
+    }
+  }
+  
+  
+  
+  
+}
+
+@media screen and (max-width:770px) {
+  .rent {
+    .offers {
+      width: 80%;
+      .offer {
+        flex-direction: column;
+        .zgrada-pic {
+          width: 100% !important;
+        }
+        ul {
+          li{
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:580px) {
+  .rent {
+    .main-text {
+      h2 {
+        font-size: 58px;
+
+      }
+      p {
+        font-size: 42px;
+        .offer-icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+
+    .offers {
+      width: 70%;
+      .offer {
+        flex-direction: column;
+        .zgrada-pic {
+          height: auto;
+          
+        }
+        button {
+          padding: 20px !important;
+          width: 100% !important;
+          font-size: 32px !important;
+        }
+        ul {
+          flex-direction: column !important;
+          align-items: flex-start !important;
+          
+          .section-one,.section-two {
+            display: flex !important;
+            align-items: center;
+            justify-content: space-evenly !important;
+            
+          }
+
+          li{
+            .icon,.location {
+              width: 50px !important;
+              height: 50px !important;
+            }
+            font-size: 32px !important;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
