@@ -1,3 +1,104 @@
 .footer {
-  
+  color: white;
+  background-color: #374249;
+  margin-top: 50px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+  .about {
+    text-align: end;
+    padding: 10px;
+
+    ul {
+      list-style: none;
+      li {
+        a {
+          color:  rgba(255, 255, 255, 0.627);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .contact {
+    text-align: center;
+    padding: 10px;
+    ul {
+      list-style: none;
+      li {
+        color:  rgba(255, 255, 255, 0.627);
+      }
+    }
+  }
+
+  .location {
+    padding: 10px;
+    text-align: center;
+    p {
+      // text-transform: uppercase;
+      
+    }
+    ul {
+      list-style: none;
+      li {
+        color: rgba(255, 255, 255, 0.627);
+      }
+    }
+  }
+
+
+  .logo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+    .copy{
+      text-transform: none;
+      margin: 0;
+      a {
+        text-decoration: none;
+      }
+    }
+
+    h4{
+      font-size: 28px;
+      .icon {
+        background-color: #f75211;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+    p {
+      text-transform: uppercase;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      li {
+        a {
+          .icon-net {
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+            border-radius: 50%;
+            transition: .5s ease;
+          }
+          .icon-net:hover {
+            transform: scale(1.1);
+
+          }
+        }
+
+      }
+    }
+  }
 }
