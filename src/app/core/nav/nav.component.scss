@@ -67,7 +67,12 @@
       gap: 5em;
       list-style: none;
 
+      .message-text {
+        display: none;
+      }
+
       li {
+        
 
         a {
           font-size: 1rem;
@@ -110,11 +115,18 @@
         flex-direction: column;
         justify-content: center !important;
         align-items: center !important;
+
         padding: 10px;
         gap: 20px !important;
         width: 100%;
-        display: none !important;
+        // display: none !important;
+        .message-text {
+          display: inline !important;
+        }
         li {
+          width: 100%;
+          border-bottom: 1px solid #333c41c2;
+          text-align: center;
           a {
             font-size: 22px !important;
             
@@ -138,12 +150,7 @@
         }
       }
       
-      .bars:hover {
-        ul {
-          display: flex !important;
-          background-color: #37424988 !important;
-        }
-      }
+    
       
     }
 
@@ -168,7 +175,70 @@
 @media screen and (max-width: 575px) {
   .container {
     nav {
-      height: 20vh;
+      // height: 20vh;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        padding: 25px;
+        ul {
+          li {
+            margin-top: 20px !important;
+            a {
+              font-size: 48px !important;
+              padding: 20px !important;
+            }
+          }
+        }
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 246%  !important;
+        }
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:500px) {
+  .container {
+    nav {
+      // height: 20vh;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 280%  !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:430px) {
+  .container {
+    nav {
+      // height: 20vh !important;
       .home {
         height: 100%;
         img {
@@ -184,10 +254,113 @@
           width: 80px;
           height: 80px;
           top: 50px;
-          left: 246%  !important;
+          left: 320%  !important;
         }
       }
     }
   }
-  
+}
+
+@media screen and (max-width:400px) {
+  .container {
+    nav {
+      // height: 20vh !important;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 340%  !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:350px) {
+  .container {
+    nav {
+      // height: 20vh !important;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 400%  !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:300px) {
+  .container {
+    nav {
+      // height: 20vh !important;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 470%  !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:250px) {
+  .container {
+    nav {
+      // height: 20vh !important;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 550%  !important;
+        }
+      }
+    }
+  }
 }
