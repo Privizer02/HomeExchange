@@ -5,6 +5,24 @@
   padding:0;
   width: 100%;
  
+  
+  .message {
+    margin-left: auto;
+    padding:20px;
+    transition: .8s ease-in-out;
+  }
+  .message:hover {
+    transform: rotateY(180deg)
+  }
+
+
+  .menu {
+    margin-left: auto;
+    align-self: center;
+    padding: 20px;
+    display: none;
+    cursor: pointer;
+  }
   .home {
     background-color: #f75311;
     padding: 0.9em;
@@ -33,15 +51,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    .message {
-      margin-left: auto;
-      padding:20px;
-      transition: .8s ease-in-out;
-    }
-    .message:hover {
-      transform: rotateY(180deg)
-    }
     
+    .bars {
+      .icon {
+        display: none;
+      }
+    }
 
     ul {
       display: flex;
@@ -87,8 +102,70 @@
 }
 
 @media screen and (max-width:800px) {
-  nav {
-    display: none !important;
+    nav {
+      flex-direction: column;
+      align-items: flex-start !important;
+      width: 100% !important;
+      ul {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 10px;
+        gap: 20px !important;
+        width: 100%;
+        display: none !important;
+        li {
+          a {
+            font-size: 22px !important;
+            
+          }
+        }
+      }
+      .message {
+        display: none;
+      }
+      
+      .bars {
+        display: flex !important;
+        width: 100%;
+        
+        .icon {
+          display: block !important;
+          position: absolute;
+          left: 85%;
+          top: 25px;
+          cursor: pointer;   
+        }
+      }
+      
+      .bars:hover {
+        ul {
+          display: flex !important;
+          background-color: #37424988 !important;
+        }
+      }
+      
+    }
+
+}
+
+@media screen and (max-width:770px) {
+  .bars {
+    display: flex !important;
+    width: 100%;
+    
+    .icon {
+      display: block !important;
+      position: absolute;
+      left: 78% !important;
+      top: 25px;
+      cursor: pointer;   
+    }
   }
+  
+}
+
+@media screen and (max-width: 580) {
+  
   
 }
