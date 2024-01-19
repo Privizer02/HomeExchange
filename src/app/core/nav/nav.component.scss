@@ -165,7 +165,29 @@
   
 }
 
-@media screen and (max-width: 580) {
-  
+@media screen and (max-width: 575px) {
+  .container {
+    nav {
+      height: 20vh;
+      .home {
+        height: 100%;
+        img {
+          width: auto;
+
+        }
+        h4 {
+          font-size: 48px;
+        }
+      }
+      .bars {
+        .icon {
+          width: 80px;
+          height: 80px;
+          top: 50px;
+          left: 246%  !important;
+        }
+      }
+    }
+  }
   
 }
