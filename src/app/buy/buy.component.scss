@@ -94,3 +94,98 @@
     }
   }
 }
+
+@media screen and (max-width:1000px) {
+  .buy {
+    
+      .house {
+        img {
+          height: 200px;
+        }
+      }
+      .house-text {
+        ul {
+          .section-one,.section-two {
+            li {
+              font-size: 14px;
+              
+            }
+          }
+        }
+      }
+    
+  }
+  
+}
+
+@media screen and (max-width:770px) {
+  .buy {
+    .house {
+      width: 100%;
+      img {
+        height: auto;
+      }
+    }
+    .house-text {
+      ul {
+        .section-one,.section-two {
+          li {
+            font-size: 18px;
+            
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:580px) {
+  .main-text {
+    h2 {
+      font-size: 96px;
+    }
+    p {
+      font-size: 48px;
+      .offer-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+      }
+    }
+  }
+  
+  .buy {
+    .house {
+      width: 90%;
+      img {
+        height: auto;
+      }
+    }
+    .house-text {
+      ul {
+        .section-one,.section-two {
+          li {
+            font-size: 58px;
+             .icon {
+              width: 80px;
+              height: 80px;
+              border-radius: 10px;
+              padding: 10px;
+            }
+            .location {
+              width: 80px;
+              height: 80px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+      button {
+        font-size: 68px;
+        border-radius: 20px !important;
+      }
+    }
+  }
+  
+}
