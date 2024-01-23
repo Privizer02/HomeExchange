@@ -48,3 +48,64 @@
     }
   }
 }
+
+@media screen and (max-width:980px) {
+  .contact {
+    form {
+      width: 80% ;
+    }
+  }
+  
+}
+@media screen and (max-width:770px) {
+  .contact {
+    h2 {
+      font-size: 23px;
+    }
+    text-align: center;
+    form {
+      width: 100% ;
+    }
+  }
+  
+}
+@media screen and (max-width:575px) {
+  .contact {
+    margin-top: 10%;
+    margin-bottom: 40%;
+    h2 {
+      font-size: 58px;
+    }
+    p {
+      font-size: 42px;
+    }
+    text-align: center;
+    form {
+      width: 100% ;
+      gap: 30px;
+      input,textarea {
+        width: 90%;
+        padding: 15px;
+        font-size: 36px;
+      }
+      button {
+        padding: 20px;
+        font-size: 38px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:440px) {
+  .contact {
+    background-color: #374249;
+    color: white;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    form {
+      margin-top: 100px;
+    }
+  }
+  
+}
