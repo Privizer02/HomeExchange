@@ -128,3 +128,76 @@
 
 
 }
+
+@media screen and (max-width:992px) {
+  .sell {
+    form {
+      width: 100%;
+    }
+  }
+
+  
+}
+
+@media screen and (max-width:575px) {
+  .sell {
+    margin-bottom: 20%;
+    margin-top: 10%;
+
+    .header-text {
+      h2 {
+        font-size: 64px;
+      }
+      p {
+        font-size: 48px;
+        .icon {
+          width: 80px;
+          height: 80px;
+          padding: 10px;
+        }
+      }
+    }
+    
+    form {
+      width: 90%;
+      
+      .image-upload {
+        .icon {
+          width: 60px;
+          height: 60px;
+          padding: 10px;
+        }
+        label {
+          font-size: 32px;
+        }
+      }
+      
+      div {
+        gap: 10px;
+        
+        
+        input,select {
+          width: 85%;
+          font-size: 32px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  
+}
+
+@media screen and (max-width:400px) {
+  .sell {
+    margin-bottom: 30%;
+    form {
+      div {
+        input,select {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+  
+}
